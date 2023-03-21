@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6- Formulário</title>
+    <style>
+        body{
+            width: 40%;
+            margin: 0 auto;
+            text-align: center;
+            font-family: cursive;
+            background-color: #b3d153;
+            color: #4b0000;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Faça um programa que leia 10 números informados pelo usuário e ao final da leitura escrever a soma total dos 10 números lidos.</h2>
+    <script>
+        let n1= parseFloat(prompt("Digite o primeiro número: "));
+        let n2= parseFloat(prompt("Digite o segundo número: "));
+        let n3= parseFloat(prompt("Digite o terceiro número: "));
+        let n4= parseFloat(prompt("Digite o quarto número: "));
+        let n5= parseFloat(prompt("Digite o quinto número: "));
+        let n6= parseFloat(prompt("Digite o sexto número: "));
+        let n7= parseFloat(prompt("Digite o sétimo número: "));
+        let n8= parseFloat(prompt("Digite o oitavo número: "));
+        let n9= parseFloat(prompt("Digite o nono número: "));
+        let n10= parseFloat(prompt("Digite o décimo número: "));
+
+        document.write("Os números informados foram "+ n1 + ", " + n2+", " + n3+", "+ n4 + ", " + n5+", " + n6+", "+ n7 + ", " + n8+", " + n9+" e "+ n10);
+        document.write("<br>");
+        soma= (n1+n2+n3+n4+n5+n6+n7+n8+n9+n10);
+
+        document.write("A soma desses números é "+soma);
+    </script>
+</body>
+</html>

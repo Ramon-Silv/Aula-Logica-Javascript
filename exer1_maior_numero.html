@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1- Formulário</title>
+    <style>
+        body{
+            background-color: #f563d2;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0 auto;
+            width: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Escreva um programa em que o usuário informe dois números utilizando o "prompt". Então escreva em tela o maior deles.</h2>
+    <script>
+
+        let numero1= parseInt(prompt("Informe o primeiro número: "));
+        let numero2= parseInt(prompt("Informe o segundo número: "));
+
+        document.write("Os números informados foram "+ numero1 + " e " + numero2+".")
+        document.write("<br>");
+
+        if(numero1>numero2){
+            document.write("O maior número entre eles é o número "+ numero1+".")
+        }
+        else{
+            document.write("O maior número entre eles é o número "+ numero2+".")
+        }
+        
+    </script>
+</body>
+</html>

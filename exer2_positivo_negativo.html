@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2- Formulário</title>
+    <style>
+        body{
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #2f7baa;
+        }
+    </style>
+</head>
+<body>
+    <h2>Faça um programa que leia um valor informado pelo usuário e diga se o valor informado é positivo, negativo ou zero.</h2>
+    <script>
+        let n= parseFloat(prompt("Digite um número: "))
+
+        document.write("O valor informado foi "+n);
+        document.write("<br>");
+        if(n>0){
+            document.write("O valor "+ n+" é um valor positivo");
+        }
+        else if(n<0){
+            document.write("O valor "+ n+" é um valor negativo");
+        }
+        else{
+            document.write("O valor "+ n+" é igual a zero");
+        }
+    </script>
+</body>
+</html>

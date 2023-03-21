@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4- Formulário</title>
+    <style>
+        body{
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #24034f;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h2>Faça um programa que leia dois valores informados pelo usuário e exiba uma das três mensagens a seguir: ‘Números iguais’, caso os números sejam iguais ‘Primeiro é maior’, caso o primeiro seja maior que o segundo; ‘Segundo maior’, caso o segundo seja maior que o primeiro.</h2>
+    <script>
+        let n1= parseFloat(prompt("Digite o primeiro valor: "));
+        let n2= parseFloat(prompt("Digite o segundo valor: "));
+
+        document.write("Os valores informados foram "+ n1 + " e " + n2+".");
+        document.write("<br>");
+        if(n1<n2){
+            document.write("Segundo é maior.")
+        }
+        else if(n1>n2 ){
+            document.write("Primeiro é maior.")
+        }
+        else {
+            document.write("Os valores "+ n1 + " e " + n2+" são iguais.")
+        }
+    </script>
+</body>
+</html>
